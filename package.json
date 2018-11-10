@@ -1,0 +1,31 @@
+{
+  "name": "react-native-fix-third-party",
+  "version": "1.0.0",
+  "description": "Auto-repair third party scripts for react-native ios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdeck/react-native-fix-third-party.git"
+  },
+  "keywords": [
+    "react-native",
+    "xcode"
+  ],
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/react-native-fix-third-party/issues"
+  },
+  "rnpm": {
+    "commands": {
+      "postlink": "./node_modules/.bin/react-native-fix-third-party"
+    }
+  },
+  "bin": {
+    "react-native-fix-third-party": "run_rn_ios_script.js"
+  },
+  "homepage": "https://github.com/rhdeck/react-native-fix-third-party#readme"
+}
